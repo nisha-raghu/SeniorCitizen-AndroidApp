@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.custom.android.fitbitlogintest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+    <application
+        android:allowBackup="false"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DashboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".HeartDataActivity"></activity>
+        <activity android:name=".SleepDetailsActivity"></activity>
+        <activity android:name=".StepCountActivity"></activity>
+        <activity android:name=".CalorieActivity"></activity>
+        <activity android:name=".SleepInfoActivity"></activity>
+        <activity android:name=".FirebaseLoginActivity"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".BPActivity"></activity>
+        <activity android:name=".FitbitApi"></activity>
+        <activity android:name=".CaretakerActivity"></activity>
+        <activity android:name=".UserActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".EasySocialAuthActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"></activity>
+        <service android:name=".FallDetectionActivity"></service>
+
+
+    </application>
+
+</manifest>

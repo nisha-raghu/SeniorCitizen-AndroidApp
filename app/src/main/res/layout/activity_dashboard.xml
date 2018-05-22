@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.09"
+        android:color="@color/colorbackground"
+        android:fontFamily="sans-serif"
+        android:text="Senior Citizen Assistance App"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.51"
+        android:padding="0dp"
+        android:src="@drawable/logo_final" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorbackground"
+        android:text="Get Started"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>

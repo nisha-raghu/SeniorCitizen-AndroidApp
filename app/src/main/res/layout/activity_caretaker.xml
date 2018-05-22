@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/rectangebg"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/editTextCareTakerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:hint="@string/hint_caretakername"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/colorbackground" />
+
+        <EditText
+            android:id="@+id/editTextCarePhoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:hint="@string/hint_phone"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/colorbackground"
+            android:textColorHint="@color/colorbackground" />
+
+
+        <Button
+            android:id="@+id/buttonSaveCareTaker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorbackground"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

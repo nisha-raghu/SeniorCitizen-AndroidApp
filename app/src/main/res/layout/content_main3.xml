@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="368dp"
+            android:layout_height="551dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_editor_absoluteX="0dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/one"
+                android:layout_width="320dp"
+                android:layout_height="108dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="50dp"
+                card_view:cardBackgroundColor="#e8eaf6"
+                card_view:cardCornerRadius="10dp"
+                card_view:layout_goneMarginLeft="2dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/hr"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Heart Rate"
+                    android:textColor="#53ddbb"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/heart_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="70dp"
+                    android:text="76"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/heart_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="80dp"
+                    android:text="bpm"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/heartrate" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/two"
+                android:layout_width="320dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="171dp"
+                card_view:cardBackgroundColor="@color/colorbackground"
+                card_view:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/sleep"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Sleep"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/sleep_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="70dp"
+                    android:text="5.8 hours "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/sleep_image"
+                    android:layout_width="126dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/sleep_final1" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/three"
+                android:layout_width="320dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"
+                card_view:cardBackgroundColor="@color/colorbackground"
+                card_view:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/steps"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Steps"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/steps_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="70dp"
+                    android:text="56"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/steps_image"
+                    android:layout_width="113dp"
+                    android:layout_height="112dp"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/steps" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/four"
+                android:layout_width="320dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="432dp"
+                card_view:cardBackgroundColor="@color/colorbackground"
+                card_view:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/calories"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Calories"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/calorie_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="70dp"
+                    android:text="35"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/calorie_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="80dp"
+                    android:text="BMR"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/calorie_image"
+                    android:layout_width="126dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/calorie1" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/five"
+                android:layout_width="320dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="563dp"
+                card_view:cardBackgroundColor="@color/colorbackground"
+                card_view:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/fall_detection"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Fall Detection"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/fall_image"
+                    android:layout_width="126dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/x1" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/six"
+                android:layout_width="320dp"
+                android:layout_height="110dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="694dp"
+                card_view:cardBackgroundColor="@color/colorbackground"
+                card_view:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="30dp">
+
+                <TextView
+                    android:id="@+id/bp"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="40dp"
+                    android:text="BP"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/bpvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="195dp"
+                    android:layout_marginTop="70dp"
+                    android:text="5.0"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bprate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="80dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+                <ImageButton
+                    android:id="@+id/fallimage"
+                    android:layout_width="126dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="33dp"
+                    card_view:srcCompat="@drawable/bp1" />
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
